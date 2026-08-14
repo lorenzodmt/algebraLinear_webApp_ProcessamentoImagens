@@ -1,4 +1,4 @@
-pip install streamlit numpy pandas pillow
+pip install streamlit numpy pandas willow
 
 import streamlit as st
 import numpy as np
