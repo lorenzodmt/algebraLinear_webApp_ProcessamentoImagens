@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 from PIL import Image
 
-st.title(" Meu Photoshop Matemático") 👩‍🎨
+st.title(" Meu Photoshop Matemático") 
 st.write("Aplicando Álgebra Linear e Pandas em Imagens Reais!")
 
 # Cria um botão de upload na tela
