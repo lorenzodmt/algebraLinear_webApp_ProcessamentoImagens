@@ -24,7 +24,7 @@ if arquivo is not None:
  
  st.image(imagem_redimensionada, caption="Sua Foto Original")
 
- st.subheader(" Painel de Controle Matemático") 🧮
+ st.subheader(" Painel de Controle Matemático") 
  
  brilho = st.slider("Brilho (Soma de um Escalar)", min_value=-
 100, max_value=100, value=0)
@@ -48,7 +48,7 @@ Colunas)")
  st.image(matriz_processada, caption="Imagem Processada via 
 Matrizes")
 
-st.subheader(" Raio-X da Imagem com Pandas") 📊
+st.subheader(" Raio-X da Imagem com Pandas") 
  
  # Transforma a matriz 2D em 1D
  dados_pixels = matriz_processada.flatten()
