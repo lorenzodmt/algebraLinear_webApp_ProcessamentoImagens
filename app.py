@@ -1,4 +1,4 @@
-pip install streamlit numpy pandas pillow
+#pip install streamlit numpy pandas pillow
 
 import streamlit as st
 import numpy as np
