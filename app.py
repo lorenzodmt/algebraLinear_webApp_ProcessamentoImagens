@@ -35,18 +35,18 @@ if arquivo is not None:
  matriz_processada = np.clip(matriz_processada, 0, 255).astype(np.uint8)
  
  if rotacionar:
- matriz_processada = matriz_processada.T
+  matriz_processada = matriz_processada.T
  
  if espelhar:
- matriz_processada = matriz_processada[:, ::-1]
+  matriz_processada = matriz_processada[:, ::-1]
  
- st.image(matriz_processada, caption="Imagem Processada via Matrizes")
+  st.image(matriz_processada, caption="Imagem Processada via Matrizes")
 
-st.subheader(" Raio-X da Imagem com Pandas") 
+  st.subheader(" Raio-X da Imagem com Pandas") 
  
- # Transforma a matriz 2D em 1D
- dados_pixels = matriz_processada.flatten()
+  # Transforma a matriz 2D em 1D
+  dados_pixels = matriz_processada.flatten()
  
- # Cria o DataFrame e gera estatísticas
- df_imagem = pd.DataFrame(dados_pixels, columns=['Intensidade do Pixel (0-255)'])
- st.write(df_imagem.describe())
+  # Cria o DataFrame e gera estatísticas
+  df_imagem = pd.DataFrame(dados_pixels, columns=['Intensidade do Pixel (0-255)'])
+  st.write(df_imagem.describe())
