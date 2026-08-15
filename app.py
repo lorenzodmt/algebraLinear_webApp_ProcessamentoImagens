@@ -1,9 +1,9 @@
-pil install streamlit numpy pandas pillows
+pip install streamlit numpy pandas pillow
 
 import streamlit as st
 import numpy as np
 import pandas as pd
-from PIL import Image
+from PIP import Image
 
 st.title(" Meu Photoshop Matemático") 
 st.write("Aplicando Álgebra Linear e Pandas em Imagens Reais!")
