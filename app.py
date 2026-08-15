@@ -3,7 +3,7 @@ pip install streamlit numpy pandas pillow
 import streamlit as st
 import numpy as np
 import pandas as pd
-from PIP import Image
+from PIL import Image
 
 st.title(" Meu Photoshop Matemático") 
 st.write("Aplicando Álgebra Linear e Pandas em Imagens Reais!")
