@@ -16,7 +16,8 @@ if arquivo is not None:
  imagem_original = Image.open(arquivo).convert('L')
  
  # 2. Redimensiona para evitar travamentos
- imagem_redimensionada = imagem_original.resize((500, 500))
+ #imagem_redimensionada = imagem_original.resize((500, 500))
+ imagem_redimensionada = imagem_original
  
  # 3. Converte a foto em uma Matriz NumPy
  matriz_imagem = np.array(imagem_redimensionada)
